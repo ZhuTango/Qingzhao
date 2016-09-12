@@ -1,4 +1,4 @@
-# my-project
+# vue-cnode
 
 > A Vue.js project
 
