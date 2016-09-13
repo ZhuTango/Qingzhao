@@ -4,19 +4,16 @@
 </style>
 <template>
   <div id="app">
-    <router-view></router-view>
     <h1>Hello World!!!</h1>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
   import store from './vuex/store'
-  import { setDetail, getStore } from './vuex/actions/user_actions'
   export default {
     vuex: {
       actions: {
-        setDetail,
-        getStore
       }
     },
     store,
